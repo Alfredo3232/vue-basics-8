@@ -1,6 +1,6 @@
 <template>
-    <the-resources></the-resources>
     <the-header title="RememberMe"></the-header>
+    <the-resources></the-resources>
 </template>
 
 <script>
