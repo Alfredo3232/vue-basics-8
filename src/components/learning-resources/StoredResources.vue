@@ -15,15 +15,11 @@
 import LearningResource from './LearningResource.vue';
 
 export default {
+    inject: ['resources'],
     components: {
         'learning-resource': LearningResource,
     },
-    props: {
-        resources: {
-            type: String,
-            required: true
-        }
-    }
+
 }
 </script>
 
