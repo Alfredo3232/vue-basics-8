@@ -16,18 +16,9 @@
 <script>
 export default {
     props: {
-        title: {
-            type: String,
-            required: true,
-        },
-        description: {
-            type: String,
-            required: true,
-        },
-        link: {
-            type: String,
-            required: true,
-        }
+        title: String,
+        description: String,
+        link: String
     }
 }
 </script>

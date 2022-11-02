@@ -7,14 +7,8 @@
 <script>
 export default {
     props: {
-        type: {
-            type: String,
-            required: true
-        },
-        mode: {
-            type: String,
-            required: true
-        }
+        type: String,
+        mode: String
     }
 }
 </script>

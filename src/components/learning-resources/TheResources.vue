@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import StoredResources from './components/learning-resources/StoredResources.vue';
+import StoredResources from './StoredResources.vue';
 import AddResource from './AddResource.vue';
 
 export default {
@@ -35,7 +35,7 @@ export default {
         }
     },
     provide() {
-        resources: this.storedResources
+        this.storedResources
     },
     methods: {
         setSelectedTab(tab) {
